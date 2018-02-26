@@ -15,7 +15,7 @@ public class Product1WidgetA implements WidgetA {
 
     @Override
     public void methodA() {
-        logger.debug("Successfully provided functionality Product1WidgetA");
+        logger.debug("Functionality Product1WidgetA is successfully provided");
     }
 
 }
