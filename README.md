@@ -5,7 +5,7 @@ Basic examples of patterns:
 
 Technologies:
 - Java 8
-- Logback classic
+- Logback
 
 Prerequisites:
 - Maven 3
