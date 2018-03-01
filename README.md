@@ -1,6 +1,6 @@
 # Examples of Design Patterns
 
-Basic examples patterns:
+Basic examples of patterns:
 - Abstract Factory
 
 Technologies:
