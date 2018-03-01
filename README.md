@@ -5,7 +5,7 @@ Basic examples of design patterns:
 
 Technologies:
 - Java 8
-- Logback Classic
+- Logback
 
 Prerequisites:
 - Maven 3
