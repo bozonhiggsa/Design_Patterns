@@ -1,4 +1,4 @@
-# Examples Design Patterns
+# Examples of Design Patterns
 
 Basic examples patterns:
 - Abstract Factory
