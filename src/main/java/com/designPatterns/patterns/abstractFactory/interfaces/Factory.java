@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.abstractFactory.interfaces;
 
 /**
- * Abstract Factory
+ * Interface for Abstract Factory
  * @author Ihor Savchenko
  * @version 1.0
  */
