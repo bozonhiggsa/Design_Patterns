@@ -1,25 +1,26 @@
 package com.designPatterns.patterns.singleton.singleton2;
 
 /**
- * Singleton based on a public static method getInstance with synchronized
+ * Singleton based on a public static method getInstance() with synchronized,
+ * with lazy initialization
  * @author Ihor Savchenko
  * @version 1.0
  */
 public class Singleton {
 
-    private static Singleton instance;
+    private static Singleton INSTANCE;
 
     private Singleton() {}
 
     public static Singleton getInstance() {
 
-        if (instance == null) {
+        if (INSTANCE == null) {
             synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
+                if (INSTANCE == null) {
+                    INSTANCE = new Singleton();
                 }
             }
         }
-        return instance;
+        return INSTANCE;
     }
 }

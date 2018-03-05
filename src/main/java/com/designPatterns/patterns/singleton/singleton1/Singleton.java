@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.singleton.singleton1;
 
 /**
- * Singleton based on a private static nested class
+ * Singleton based on a private static nested class, with eager initialization
  * @author Ihor Savchenko
  * @version 1.0
  */
