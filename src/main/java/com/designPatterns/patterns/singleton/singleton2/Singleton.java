@@ -2,7 +2,7 @@ package com.designPatterns.patterns.singleton.singleton2;
 
 /**
  * Singleton based on a public static method getInstance() with synchronized,
- * with lazy initialization
+ * with lazy initialization on first use
  * @author Ihor Savchenko
  * @version 1.0
  */
