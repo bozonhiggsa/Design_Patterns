@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.singleton.singleton1;
+package com.designPatterns.patterns.singleton.singleton2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
