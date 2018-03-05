@@ -4,7 +4,8 @@ Basic examples of design patterns.
 Creational patterns:
 - Abstract Factory;
 - Factory Method;
-- Builder.
+- Builder;
+- Singleton.
 
 Technologies:
 - Java 8
