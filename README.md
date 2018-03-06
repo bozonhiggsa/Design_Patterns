@@ -7,8 +7,8 @@ Creational patterns:
 - Abstract Factory;
 - Factory Method;
 - Builder;
-- Singleton;
-- Prototype.
+- Singleton (a number of versions);
+- Prototype (a number of versions).
 
 Technologies:
 - Java 8
