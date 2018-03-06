@@ -20,10 +20,10 @@ public class CarsFactory {
         prototypes.add(new Audi());
     }
 
-    public static Car getPrototype(String type) {
+    public static Car getPrototype(String kind) {
 
         for (Car car: prototypes) {
-            if(car.getModel().equals(type)){
+            if(car.getModel().equals(kind)){
                 return car.clone();
             }
         }
