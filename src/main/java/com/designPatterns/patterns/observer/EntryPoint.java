@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.observer.observer1;
+package com.designPatterns.patterns.observer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Entry point for analyzing the design pattern Observer
  * One of the observers is based on an anonymous class
+ * and another observer is based on an anonymous class with the use Lambda
  * @author Ihor Savchenko
  * @version 1.0
  */
@@ -35,6 +36,9 @@ public class EntryPoint {
                 logger.info("Observer based on an anonymous class reacted on the event " + currentState);
             }
         });
+
+        eventSource.addObserver(currentState -> logger.info("Observer based on an Lambda reacted on the event"
+                                                                                               + currentState));
 
         eventSource.eventHappened();
         eventSource.eventHappened();

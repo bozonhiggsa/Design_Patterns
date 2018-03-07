@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.observer.observer1;
+package com.designPatterns.patterns.observer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,14 +6,14 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Observer One
+ * Observer Three
  * @author Ihor Savchenko
  * @version 1.0
  */
-public class ObserverOne implements ObserverReaction {
+public class ObserverThree implements ObserverReaction {
 
-    private static final Logger logger = LoggerFactory.getLogger(ObserverOne.class);
-    private final String name = "ObserverOne";
+    private static final Logger logger = LoggerFactory.getLogger(ObserverThree.class);
+    private final String name = "ObserverThree";
 
     @Override
     public void react(AtomicInteger currentState) {

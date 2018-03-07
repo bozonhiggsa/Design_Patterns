@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.observer.observer1;
+package com.designPatterns.patterns.observer;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author Ihor Savchenko
  * @version 1.0
  */
+@FunctionalInterface
 public interface ObserverReaction {
 
     void react(AtomicInteger currentState);
