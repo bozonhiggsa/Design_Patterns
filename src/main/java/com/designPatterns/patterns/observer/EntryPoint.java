@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Entry point for analyzing the design pattern Observer
  * One of the observers is based on an anonymous class
- * and another observer is based on an anonymous class with the use Lambda
+ * and another observer is based on an anonymous class with the use of Lambda
  * @author Ihor Savchenko
  * @version 1.0
  */
