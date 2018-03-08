@@ -37,8 +37,12 @@ public class EntryPoint {
             }
         });
 
-        eventSource.addObserver(currentState -> logger.info("Observer based on an Lambda reacted on the event"
+        eventSource.addObserver(currentState -> logger.info("Observer based on an Lambda reacted on the event "
                                                                                                + currentState));
+
+        eventSource.addObserver(EntryPoint::lambdaMethod);
+
+
 
         eventSource.eventHappened();
         eventSource.eventHappened();
@@ -48,5 +52,10 @@ public class EntryPoint {
         eventSource.eventHappened();
         eventSource.eventHappened();
         eventSource.eventHappened();
+    }
+
+    private static void lambdaMethod(AtomicInteger currentState){
+
+        logger.info("Observer based on an Lambda :: reacted on the event " + currentState);
     }
 }
