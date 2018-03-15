@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Client that use a command
+ * Client that creates a number of commands
  * @author Ihor Savchenko
  * @version 1.0
  */

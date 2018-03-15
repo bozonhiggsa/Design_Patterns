@@ -10,7 +10,8 @@ Creational patterns:
 - Prototype (a number of versions).
 
 Behavioral patterns:
-- Observer.
+- Observer;
+- Command.
 
 Technologies:
 - Java 8
