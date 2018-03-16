@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.command.command1;
+package com.designPatterns.patterns.command;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

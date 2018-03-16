@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.command.command1;
+package com.designPatterns.patterns.command;
 
 /**
  * Some logic encapsulates into this class
