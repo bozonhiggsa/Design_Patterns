@@ -11,7 +11,8 @@ Creational patterns:
 
 Behavioral patterns:
 - Observer;
-- Command.
+- Command;
+- Chain of Responsibility.
 
 Technologies:
 - Java 8
