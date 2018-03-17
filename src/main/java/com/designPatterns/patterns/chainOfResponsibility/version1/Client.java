@@ -22,7 +22,9 @@ public class Client {
         rootChain.wrapAround(rootChain);
 
         for (int i = 1; i < 6; i++) {
-            logger.info("Operation #" + i + ":");
+            logger.info("----------------------");
+            logger.info("    Operation #" + i + ":");
+            logger.info("----------------------");
             rootChain.execute(i);
         }
     }

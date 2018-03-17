@@ -39,7 +39,7 @@ public class Handler {
             logger.info("   " + id + "-busy  ");
             nextInChain.execute(num);
         } else {
-            logger.info(id + "-handled-" + num);
+            logger.info("   " + id + "-handled-" + num);
         }
     }
 }
