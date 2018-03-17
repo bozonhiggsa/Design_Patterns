@@ -30,8 +30,8 @@ public class Client {
             baseHandler.execute();
         }
         catch (ConcurrentModificationException e){
+            logger.info("----------------------------------------");
             logger.info("ConcurrentModificationException appeared");
         }
-
     }
 }

@@ -15,12 +15,12 @@ import java.util.Set;
 public class BaseHandler {
 
     private static final Logger logger = LoggerFactory.getLogger(BaseHandler.class);
-    private static final Set<Handler> handlers = new HashSet<>(16);
-    private static final Set<Handler> consumedHandlers = new HashSet<>(16);
+    private static final Set<Handler> handlers = new HashSet<>();
+    private static final Set<Handler> consumedHandlers = new HashSet<>();
 
-    public void execute() throws ConcurrentModificationException {
+    public void execute() throws ConcurrentModificationException{
 
-        if(!consumedHandlers.isEmpty()) {
+        if(!handlers.isEmpty()) {
             for (Handler consumedHandler : consumedHandlers) {
                 handlers.remove(consumedHandler);
             }
