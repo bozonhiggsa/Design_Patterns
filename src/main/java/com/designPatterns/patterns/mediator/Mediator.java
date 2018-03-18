@@ -12,7 +12,7 @@ public class Mediator {
     private int number;
 
     public synchronized void storeMessage(int num) {
-        while (slotFull == true) {
+        while (slotFull) {
             try {
                 wait();
             }
@@ -26,7 +26,7 @@ public class Mediator {
     }
 
     public synchronized int retrieveMessage() {
-        while (slotFull == false) {
+        while (!slotFull) {
             try {
                 wait();
             } catch (InterruptedException e) {

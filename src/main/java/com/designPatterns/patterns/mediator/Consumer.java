@@ -12,18 +12,18 @@ public class Consumer implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
     private static int num = 1;
-    private Mediator med;
+    private Mediator mediator;
     private int id;
 
     public Consumer(Mediator m) {
-        med = m;
+        mediator = m;
         id = num++;
     }
 
     @Override
     public void run() {
         while (true) {
-            logger.info("   consumer" + id + " consumed the message - " + med.retrieveMessage());
+            logger.info("   consumer" + id + " consumed the message - " + mediator.retrieveMessage());
         }
     }
 }

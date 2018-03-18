@@ -12,11 +12,11 @@ public class Producer implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
     private static int num = 1;
-    private Mediator med;
+    private Mediator mediator;
     private int id;
 
     public Producer(Mediator m) {
-        med = m;
+        mediator = m;
         id = num++;
     }
 
@@ -24,7 +24,7 @@ public class Producer implements Runnable {
     public void run() {
         int num;
         while (true) {
-            med.storeMessage(num = (int)(Math.random()*100));
+            mediator.storeMessage(num = (int)(Math.random()*100));
             logger.info("   producer " + id + " produced the message - " + num);
         }
     }
