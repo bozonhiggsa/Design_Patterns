@@ -8,7 +8,8 @@ package com.designPatterns.patterns.templateMethod;
 public class EntryPoint {
 
     public static void main(String[] args) {
-        Generalization algorithm = new Realization();
-        algorithm.findSolution();
+
+        SuperiorAncestor superiorAncestor = new Successor();
+        superiorAncestor.findSolution();
     }
 }
