@@ -14,7 +14,8 @@ Behavioral patterns:
 - Command;
 - Chain of Responsibility;
 - Mediator;
-- Template Method.
+- Template Method;
+- Strategy.
 
 Technologies:
 - Java 8
