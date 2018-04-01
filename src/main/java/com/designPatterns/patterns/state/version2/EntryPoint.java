@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.state.version1;
+package com.designPatterns.patterns.state.version2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,8 @@ import java.io.InputStreamReader;
 
 /**
  * Entry point for demonstrating the pattern - State.
+ * Clients requests are simply delegated to the current state object
+ * and the wrapper object's "this" pointer is passed
  * @author Ihor Savchenko
  * @version 1.0
  */
@@ -15,14 +17,14 @@ public class EntryPoint {
 
     private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
-    public static void main( String[] args ) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         InputStreamReader is = new InputStreamReader(System.in);
-        Chain chain = new Chain();
+        Button btn = new Button();
         while (true) {
             logger.info("Press 'Enter'");
             is.read();
-            chain.pull();
+            btn.push();
         }
     }
 }
