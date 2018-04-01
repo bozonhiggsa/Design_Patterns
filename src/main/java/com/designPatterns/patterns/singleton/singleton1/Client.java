@@ -18,5 +18,4 @@ public class Client {
         Singleton singleton2 = Singleton.getInstance();
         logger.info("Is this the same object? : " + (singleton1 == singleton2));
     }
-
 }
