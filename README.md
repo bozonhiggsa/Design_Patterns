@@ -16,7 +16,8 @@ Behavioral patterns:
 - Mediator;
 - Template Method;
 - Strategy;
-- Iterator.
+- Iterator;
+- State.
 
 Technologies:
 - Java 8;
