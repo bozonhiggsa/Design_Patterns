@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.templateMethod;
+package com.designPatterns.patterns.templateMethod.version1;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

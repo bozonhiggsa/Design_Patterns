@@ -1,4 +1,4 @@
-package com.designPatterns.patterns.templateMethod;
+package com.designPatterns.patterns.templateMethod.version1;
 
 /**
  * Entry point for analyzing the Template Method
