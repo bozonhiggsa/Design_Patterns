@@ -2,7 +2,8 @@ package com.designPatterns.patterns.state.version2;
 
 /**
  * Wrapper class that models the state machine.
- * Wrapper class maintains a "current" state object.
+ * This class is the "wrapper" class.
+ * The wrapper class maintains a "current" State object.
  * @author Ihor Savchenko
  * @version 1.0
  */

@@ -4,7 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Base abstract class for chain elements.
+ * State base class replicates the methods of the state
+ * machine interface. Each method takes one additional parameter:
+ * an instance of the wrapper class.
  * @author Ihor Savchenko
  * @version 1.0
  */

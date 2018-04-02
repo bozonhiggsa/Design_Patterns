@@ -8,8 +8,8 @@ import java.io.InputStreamReader;
 
 /**
  * Entry point for demonstrating the pattern - State.
- * Clients requests are simply delegated to the current state object
- * and the wrapper object's "this" pointer is passed
+ * All client requests to the wrapper class
+ * are simply delegated to the current State object.
  * @author Ihor Savchenko
  * @version 1.0
  */

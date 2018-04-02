@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Off - Concrete class for state machine.
+ * State derived class.
  * The State derived classes only override the messages they need.
  * @author Ihor Savchenko
  * @version 1.0
@@ -19,6 +20,7 @@ public class Off extends State {
     public static State instance() {
         return instance;
     }
+
     public void push(Button b) {
         b.setCurrent(On.instance());
         logger.info("   turning ON");

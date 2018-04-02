@@ -6,7 +6,10 @@ import org.slf4j.LoggerFactory;
 /**
  * Base class for states machine that makes
  * the concrete states interchangeable and specifies
- * any useful "default" behavior
+ * any useful "default" behavior.
+ * State base class replicates the methods of the state
+ * machine interface. Each method takes one additional parameter:
+ * an instance of the wrapper class.
  * @author Ihor Savchenko
  * @version 1.0
  */

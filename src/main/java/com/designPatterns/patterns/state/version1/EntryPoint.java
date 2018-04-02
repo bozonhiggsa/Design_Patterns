@@ -8,6 +8,8 @@ import java.io.InputStreamReader;
 
 /**
  * Entry point for demonstrating the pattern - State.
+ * All client requests to the wrapper class
+ * are simply delegated to the current State object.
  * @author Ihor Savchenko
  * @version 1.0
  */

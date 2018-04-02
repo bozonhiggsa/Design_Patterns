@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Low - Element of the chain.
+ * State derived class.
  * @author Ihor Savchenko
  * @version 1.0
  */

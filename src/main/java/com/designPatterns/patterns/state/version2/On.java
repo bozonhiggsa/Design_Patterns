@@ -2,6 +2,7 @@ package com.designPatterns.patterns.state.version2;
 
 /**
  * On - Concrete class for state machine.
+ * State derived class.
  * The State derived classes only override the messages they need.
  * @author Ihor Savchenko
  * @version 1.0
