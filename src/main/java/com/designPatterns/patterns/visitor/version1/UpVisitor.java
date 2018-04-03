@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  */
 public class UpVisitor implements Visitor {
 
-    private static final Logger logger = LoggerFactory.getLogger(DownVisitor.class);
+    private static final Logger logger = LoggerFactory.getLogger(UpVisitor.class);
 
     public void visit(FirstElement firstElement) {
 
