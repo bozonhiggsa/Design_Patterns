@@ -1,7 +1,10 @@
 package com.designPatterns.patterns.visitor.visitor1;
 
 /**
- * Created by Garik on 4/3/2018.
+ * "visitor" interface with visit() methods
+ * for every "element" type.
+ * @author Ihor Savchenko
+ * @version 1.0
  */
 public interface Visitor {
 

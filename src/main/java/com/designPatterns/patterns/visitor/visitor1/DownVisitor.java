@@ -1,19 +1,31 @@
 package com.designPatterns.patterns.visitor.visitor1;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
- * Created by Garik on 4/3/2018.
+ * "visitor" derived class for each "operation"
+ * to do on "elements".
+ * @author Ihor Savchenko
+ * @version 1.0
  */
 public class DownVisitor implements Visitor {
 
+    private static final Logger logger = LoggerFactory.getLogger(DownVisitor.class);
+
     public void visit(FirstElement firstElement) {
-        System.out.println("do Down on " + firstElement.getFirstElement());
+
+        logger.info("do Down on " + firstElement.getFirstElement());
     }
 
     public void visit(SecondElement secondElement) {
-        System.out.println("do Down on " + secondElement.getSecondElement());
+
+        logger.info("do Down on " + secondElement.getSecondElement());
+
     }
 
     public void visit(ThirdElement thirdElement) {
-        System.out.println("do Down on " + thirdElement.getThirdElement());
+
+        logger.info("do Down on " + thirdElement.getThirdElement());
     }
 }

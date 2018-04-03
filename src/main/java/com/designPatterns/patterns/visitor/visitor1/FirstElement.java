@@ -1,11 +1,14 @@
 package com.designPatterns.patterns.visitor.visitor1;
 
 /**
- * Created by Garik on 4/3/2018.
+ * Derived class for Element.
+ * @author Ihor Savchenko
+ * @version 1.0
  */
 public class FirstElement implements Element {
 
     public void accept(Visitor v) {
+
         v.visit(this);
     }
 
