@@ -1,8 +1,11 @@
 package com.designPatterns.patterns.visitor.version2;
 
 /**
- * Interface with execute(Visitor) method
- * to the "element" hierarchy.
+ * Element and Visitor hierarchy together.
+ * Interface with execute(Visitor) method.
+ * Visitor with doJob() methods
+ * for every "element" derived type.
+ * Elements is also visitors for himself.
  * @author Ihor Savchenko
  * @version 1.0
  */
