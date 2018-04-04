@@ -2,7 +2,8 @@ package com.designPatterns.patterns.visitor.version1;
 
 /**
  * Client that uses the Visitor pattern.
- * Client creates "visitor" objects and passes each to accept() calls.
+ * The client creates Visitor objects and passes each
+ * to Element objects by calling accept().
  * @author Ihor Savchenko
  * @version 1.0
  */
