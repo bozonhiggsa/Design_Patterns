@@ -20,6 +20,9 @@ Behavioral patterns:
 - State;
 - Visitor.
 
+Structural patterns:
+- Composite.
+
 Technologies:
 - Java 8;
 - Logback Classic.
