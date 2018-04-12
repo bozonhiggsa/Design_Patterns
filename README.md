@@ -17,7 +17,7 @@ Behavioral patterns:
 - Template Method;
 - Strategy;
 - Iterator;
-- State;
+- State
 - Visitor.
 
 Structural patterns:
@@ -29,4 +29,4 @@ Technologies:
 
 Prerequisites:
 - Maven 3;
-- Better use the newest version of IntelliJ IDEA, JDK 1.8_x.
+- Better use the version of IntelliJ IDEA, JDK 1.8_x.
