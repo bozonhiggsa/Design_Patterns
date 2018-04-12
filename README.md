@@ -28,5 +28,5 @@ Technologies:
 - Logback Classic.
 
 Prerequisites:
-- Maven 3;
+- Maven 3 or 2;
 - Better use the version of IntelliJ IDEA, JDK 1.8_x.
