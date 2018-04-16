@@ -22,7 +22,9 @@ Behavioral patterns:
 
 Structural patterns:
 - Composite;
-- Proxy.
+- Proxy;
+- Decorator (soon);
+- Adapter (soon).
 
 Technologies:
 - Java 8;
