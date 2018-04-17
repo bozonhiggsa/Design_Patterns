@@ -23,7 +23,7 @@ Behavioral patterns:
 Structural patterns:
 - Composite;
 - Proxy;
-- Decorator (soon);
+- Decorator;
 - Adapter (soon).
 
 Technologies:
