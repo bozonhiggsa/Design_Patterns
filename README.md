@@ -24,7 +24,7 @@ Structural patterns:
 - Composite;
 - Proxy;
 - Decorator;
-- Adapter (soon).
+- Adapter.
 
 Technologies:
 - Java 8;
