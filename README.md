@@ -1,6 +1,6 @@
 # Examples of Design Patterns
 
-Basic examples of design patterns.
+Basic examples of principal design patterns.
 
 Creational patterns:
 - Abstract Factory;
