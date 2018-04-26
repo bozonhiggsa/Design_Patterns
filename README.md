@@ -25,7 +25,8 @@ Structural patterns:
 - Proxy;
 - Decorator;
 - Adapter;
-- Flyweight.
+- Flyweight;
+- Facade.
 
 Technologies:
 - Java 8;
