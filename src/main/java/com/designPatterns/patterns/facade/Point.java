@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * "wrapper" class that can encapsulate the use of the subsystems.
+ * "Wrapper" class that can encapsulate the use of the subsystems.
  * Desired unified interface for a set of subsystems.
  * @author Ihor Savchenko
  * @version 1.0
