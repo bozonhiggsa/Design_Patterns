@@ -5,7 +5,6 @@ package com.designPatterns.patterns.decorator.version1;
  * for optional functionality.
  * Decorator class "has a" instance of the "lowest common denominator".
  * Decorator class delegates to the "has a" object.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

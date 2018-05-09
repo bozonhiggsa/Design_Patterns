@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 /**
  * Decorator derived class for optional embellishment.
  * Decorator derived classes delegate to base class and add extra stuff.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

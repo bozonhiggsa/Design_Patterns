@@ -3,7 +3,6 @@ package com.designPatterns.patterns.decorator.version1;
 /**
  *  Client has the responsibility to compose
  *  desired configurations.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

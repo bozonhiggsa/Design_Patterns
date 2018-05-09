@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * "Core" class with "is a" relationship.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */
