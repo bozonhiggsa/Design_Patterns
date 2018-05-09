@@ -7,8 +7,7 @@ import org.slf4j.LoggerFactory;
  * Concrete implementation for StrategySearch
  * @author Ihor Savchenko
  * @version 1.0
- */
-@SuppressWarnings("ALL")
+ * */
 public class StrategySearchImpl extends StrategySearch {
 
     private static final Logger logger = LoggerFactory.getLogger(Client.class);

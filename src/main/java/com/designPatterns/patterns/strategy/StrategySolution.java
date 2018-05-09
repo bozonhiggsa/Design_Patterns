@@ -7,7 +7,6 @@ package com.designPatterns.patterns.strategy;
  * @author Ihor Savchenko
  * @version 1.0
  */
-@SuppressWarnings("ALL")
 public abstract class StrategySolution implements Strategy {
 
     public void solve() {

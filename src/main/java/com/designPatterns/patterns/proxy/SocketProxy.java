@@ -12,7 +12,6 @@ import java.net.Socket;
  * or expensive, or sensitive target.
  * Encapsulate the complexity/overhead of the target in the wrapper.
  * The wrapper delegates to the target.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */
