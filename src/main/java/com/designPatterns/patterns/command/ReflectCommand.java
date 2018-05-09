@@ -1,7 +1,8 @@
 package com.designPatterns.patterns.command;
 
 /**
- * Created by Garik on 15.03.2018.
+ * @author Ihor Savchenko
+ * @version 1.0
  */
 public interface ReflectCommand {
 
