@@ -2,7 +2,6 @@ package com.designPatterns.patterns.bridge;
 
 /**
  * Empty implementation.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

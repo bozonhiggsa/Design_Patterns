@@ -2,7 +2,6 @@ package com.designPatterns.patterns.bridge;
 
 /**
  * Derive the separate implementations from the common abstraction.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

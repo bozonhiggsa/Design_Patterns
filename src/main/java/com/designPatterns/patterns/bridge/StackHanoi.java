@@ -2,7 +2,6 @@ package com.designPatterns.patterns.bridge;
 
 /**
  * Embellish the interface class with derived classes if desired.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

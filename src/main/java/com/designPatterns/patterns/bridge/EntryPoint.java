@@ -2,7 +2,6 @@ package com.designPatterns.patterns.bridge;
 
 /**
  * Client that uses the bridge.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

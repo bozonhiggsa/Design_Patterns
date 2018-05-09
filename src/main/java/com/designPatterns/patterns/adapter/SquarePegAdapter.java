@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
  * The adapter/wrapper class "has a" instance of the legacy class.
  * The adapter/wrapper class delegates to the legacy object.
  * Identify the desired interface.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */
