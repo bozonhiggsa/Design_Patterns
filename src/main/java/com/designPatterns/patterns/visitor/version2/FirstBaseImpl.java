@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * "visitor" derived class for each "operation"
+ * "Visitor" derived class for each "operation"
  * to do on "elements".
  * @author Ihor Savchenko
  * @version 1.0

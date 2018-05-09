@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.visitor.version1;
 
 /**
- * "visitor" interface with visit() methods
+ * "Visitor" interface with visit() methods
  * for every "element" derived type.
  * The Visitor hierarchy is coupled to each Element derived class
  * @author Ihor Savchenko
