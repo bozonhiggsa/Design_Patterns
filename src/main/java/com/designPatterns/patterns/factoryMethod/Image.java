@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.factoryMethod;
 
 /**
-* Model - Image
+ * Model - Image
  * @author Ihor Savchenko
  * @version 1.0
  */

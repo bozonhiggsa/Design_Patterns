@@ -11,7 +11,6 @@ import java.util.TreeMap;
  * multiple times to a container, and, Buttons cannot be cloned.
  * So - this is only simulating the sharing that the Flyweight
  * pattern provides.]
- *
  * @author Ihor Savchenko
  * @version 1.0
  */

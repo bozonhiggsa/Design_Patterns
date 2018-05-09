@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 /**
  * A third party must compute the extrinsic state (x and y)
  * The Button label is intrinsic state.
- *
  * @author Ihor Savchenko
  * @version 1.0
  */
