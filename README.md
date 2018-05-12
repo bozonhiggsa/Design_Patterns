@@ -13,7 +13,7 @@ Behavioral patterns:
 - Observer;
 - Command;
 - Chain of Responsibility;
-- Mediator;
+- Mediator
 - Template Method;
 - Strategy;
 - Iterator;
