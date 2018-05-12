@@ -21,7 +21,7 @@ Behavioral patterns:
 - Visitor.
 
 Structural patterns:
-- Composite
+- Composite;
 - Proxy.
 
 Technologies:
