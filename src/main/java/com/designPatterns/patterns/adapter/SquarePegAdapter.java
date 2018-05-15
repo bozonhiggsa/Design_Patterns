@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * "Wrapper" class that can "impedance match" the old component to the new system.
+ * Adapter is about creating an intermediary abstraction
+ * that translates, or maps, the old component to the new system.
  * The adapter/wrapper class "has a" instance of the legacy class.
  * The adapter/wrapper class delegates to the legacy object.
  * Identify the desired interface.
