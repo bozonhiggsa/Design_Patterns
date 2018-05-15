@@ -1,7 +1,8 @@
 package com.designPatterns.patterns.adapter;
 
 /**
- * The client uses (is coupled to) the new interface.
+ * Client calls methods on the Adapter object which redirects
+ * them into calls to the legacy component.
  * @author Ihor Savchenko
  * @version 1.0
  */
