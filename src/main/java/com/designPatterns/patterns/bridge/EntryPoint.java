@@ -1,7 +1,8 @@
 package com.designPatterns.patterns.bridge;
 
 /**
- * Client that uses the bridge.
+ * The Client doesn't want to deal with platform-dependent details.
+ * The Bridge pattern encapsulates this complexity behind an abstraction "wrapper".
  * @author Ihor Savchenko
  * @version 1.0
  */
