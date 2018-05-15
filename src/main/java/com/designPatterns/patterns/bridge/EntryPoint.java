@@ -1,5 +1,8 @@
 package com.designPatterns.patterns.bridge;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * The Client doesn't want to deal with platform-dependent details.
  * The Bridge pattern encapsulates this complexity behind an abstraction "wrapper".
@@ -7,6 +10,8 @@ package com.designPatterns.patterns.bridge;
  * @version 1.0
  */
 public class EntryPoint {
+
+    private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
     public static void main(String[] args) {
 
@@ -24,6 +29,6 @@ public class EntryPoint {
             }
             System.out.println();
         }
-        System.out.println("total rejected is " + ((StackHanoi)stacks[3]).reportRejected());
+        logger.info("total rejected is " + ((StackHanoi)stacks[3]).reportRejected());
     }
 }
