@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.adapter;
 
 /**
- * The OLD.
+ * The OLD component.
  * @author Ihor Savchenko
  * @version 1.0
  */

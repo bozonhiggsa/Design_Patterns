@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * The NEW.
+ * The NEW component.
  * @author Ihor Savchenko
  * @version 1.0
  */
