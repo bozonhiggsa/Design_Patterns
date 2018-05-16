@@ -4,8 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Decorator derived class for optional embellishment.
- * Decorator derived classes implement their wrapper functionality,
+ * The Decorator derived class for optional embellishment.
+ * The Decorator derived classes implement their wrapper functionality,
  * delegate to the Decorator base class and add extra stuff.
  * @author Ihor Savchenko
  * @version 1.0

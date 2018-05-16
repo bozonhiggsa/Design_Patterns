@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Decorator - authenticate, input, encrypt, authenticate, decrypt, output.
+ * The client configures the type and ordering of
+ * Core and Decorator objects.
  * @author Ihor Savchenko
  * @version 1.0
  */

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
+ * The Core class inherits from the LCD interface.
  * @author Ihor Savchenko
  * @version 1.0
  */

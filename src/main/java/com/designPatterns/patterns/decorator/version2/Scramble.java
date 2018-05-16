@@ -1,6 +1,10 @@
 package com.designPatterns.patterns.decorator.version2;
 
 /**
+ * The Decorator derived class for some optional embellishment.
+ * The Decorator derived classes implement their wrapper functionality
+ * and delegate to the Decorator base class.
+ * The Decorator - authenticate, input, encrypt, authenticate, decrypt, output.
  * @author Ihor Savchenko
  * @version 1.0
  */

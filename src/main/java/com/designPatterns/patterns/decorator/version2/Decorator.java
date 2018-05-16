@@ -1,6 +1,11 @@
 package com.designPatterns.patterns.decorator.version2;
 
 /**
+ * The Decorator class inherits from the LCD interface.
+ * The Decorator class declares a composition relationship
+ * to the LCD interface, and this data member
+ * is initialized in its constructor.
+ * The Decorator class delegates to the LCD object.
  * @author Ihor Savchenko
  * @version 1.0
  */
