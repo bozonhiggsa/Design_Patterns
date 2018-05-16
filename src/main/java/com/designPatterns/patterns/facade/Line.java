@@ -1,6 +1,7 @@
 package com.designPatterns.patterns.facade;
 
 /**
+ * Class Line for Facade.
  * @author Ihor Savchenko
  * @version 1.0
  */
