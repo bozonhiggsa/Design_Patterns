@@ -1,8 +1,10 @@
 package com.designPatterns.patterns.decorator.version1;
 
 /**
- *  Client has the responsibility to compose
- *  desired configurations.
+ * The client has the responsibility to compose
+ * desired configurations.
+ * The client configures the type and ordering of
+ * Core and Decorator objects.
  * @author Ihor Savchenko
  * @version 1.0
  */

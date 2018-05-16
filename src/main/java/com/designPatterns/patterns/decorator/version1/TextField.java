@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * "Core" class with "is a" relationship.
+ * Single core (or non-optional) component.
  * @author Ihor Savchenko
  * @version 1.0
  */
