@@ -1,6 +1,7 @@
 package com.designPatterns.patterns.composite;
 
 /**
+ * Another child of Composite.
  * @author Ihor Savchenko
  * @version 1.0
  */

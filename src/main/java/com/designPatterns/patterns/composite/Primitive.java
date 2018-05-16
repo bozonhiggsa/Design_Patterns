@@ -1,6 +1,8 @@
 package com.designPatterns.patterns.composite;
 
 /**
+ * Primitive is a simply implementation of the Component.
+ * Primitive don't contain components.
  * @author Ihor Savchenko
  * @version 1.0
  */

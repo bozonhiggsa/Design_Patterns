@@ -1,6 +1,7 @@
 package com.designPatterns.patterns.composite;
 
 /**
+ * Client that uses Primitives and Composites (and their subclasses) uniformly.
  * @author Ihor Savchenko
  * @version 1.0
  */
