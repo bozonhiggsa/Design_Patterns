@@ -1,10 +1,11 @@
 package com.designPatterns.patterns.decorator.version1;
 
 /**
- * Second level base class with "is a" relationship
- * for optional functionality.
- * Decorator class "has a" instance of the "lowest common denominator".
- * Decorator class delegates to the "has a" object.
+ * A second level base class (Decorator) to support
+ * the optional wrapper classes.
+ * Attach additional responsibilities to an object dynamically.
+ * Decorators provide a flexible alternative to subclassing
+ * for extending functionality.
  * @author Ihor Savchenko
  * @version 1.0
  */

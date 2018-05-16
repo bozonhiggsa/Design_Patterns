@@ -1,8 +1,8 @@
 package com.designPatterns.patterns.decorator.version1;
 
 /**
- * "Lowest common denominator" that makes
- * classes interchangeable.
+ * "Lowest Common Denominator" interface that makes
+ * all classes interchangeable.
  * @author Ihor Savchenko
  * @version 1.0
  */
