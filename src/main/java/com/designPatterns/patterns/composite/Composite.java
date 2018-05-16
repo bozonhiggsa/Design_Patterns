@@ -1,6 +1,9 @@
 package com.designPatterns.patterns.composite;
 
 /**
+ * Each Composite object "couples" itself only to the
+ * interface Component as it manages its "children".
+ * Composite contains components, each of which could be a composite.
  * @author Ihor Savchenko
  * @version 1.0
  */
