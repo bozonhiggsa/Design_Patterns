@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * Subsystem.
+ * Subsystem PointPolar for Facade.
  * @author Ihor Savchenko
  * @version 1.0
  */
