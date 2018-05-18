@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * Subsystem.
+ * Subsystem PointCartesian for Facade.
  * @author Ihor Savchenko
  * @version 1.0
  */
