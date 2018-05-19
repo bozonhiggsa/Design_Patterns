@@ -1,7 +1,9 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * Class Line for Facade.
+ * The facade/wrapper captures the complexity
+ * and collaborations of the component, and delegates
+ * to the appropriate methods
  * @author Ihor Savchenko
  * @version 1.0
  */
