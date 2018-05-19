@@ -1,7 +1,7 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * Client that uses the Facade.
+ * The client uses (is coupled to) the Facade only.
  * @author Ihor Savchenko
  * @version 1.0
  */

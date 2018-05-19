@@ -1,9 +1,9 @@
 package com.designPatterns.patterns.facade;
 
 /**
- * The facade/wrapper captures the complexity
- * and collaborations of the component, and delegates
- * to the appropriate methods
+ * The facade captures the complexity
+ * and collaborations of the subsystems, and delegates
+ * to the appropriate methods of the wrapper.
  * @author Ihor Savchenko
  * @version 1.0
  */
