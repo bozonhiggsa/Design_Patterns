@@ -5,9 +5,10 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
+ * Factory that can cache and reuse existing class instances.
  * Factory that can return an existing object or a new object.
  * Identify intrinsic state (Button label).
- * Return an existing object [The same Button cannot be added
+ * Return an existing object [the same Button cannot be added
  * multiple times to a container, and, Buttons cannot be cloned.
  * So - this is only simulating the sharing that the Flyweight
  * pattern provides.]
