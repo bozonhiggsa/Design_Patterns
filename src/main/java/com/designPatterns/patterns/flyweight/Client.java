@@ -6,7 +6,7 @@ import java.awt.event.WindowEvent;
 import java.util.Random;
 
 /**
- * The client must use the Factory instead of "new" to request objects
+ * The client must use the Factory instead of "new" to request objects.
  * Identify shareable and non-shareable state:
  * shareable - Button label, non-shareable - Button location.
  * The client (or a third party) must provide/compute the extrinsic state.
