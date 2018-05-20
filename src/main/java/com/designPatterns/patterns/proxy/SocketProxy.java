@@ -8,10 +8,11 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Create a "wrapper" for a remote,
+ * "Wrapper" for a remote,
  * or expensive, or sensitive target.
  * Encapsulate the complexity/overhead of the target in the wrapper.
  * The wrapper delegates to the target.
+ * Proxy provides the same interface as for the original component.
  * @author Ihor Savchenko
  * @version 1.0
  */

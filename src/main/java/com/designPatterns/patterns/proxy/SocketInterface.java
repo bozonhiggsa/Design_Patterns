@@ -5,7 +5,6 @@ package com.designPatterns.patterns.proxy;
  * the wrapper and the target, create an interface.
  * Interface makes the proxy and the original
  * component interchangeable.
- * Proxy provides the same interface.
  * @author Ihor Savchenko
  * @version 1.0
  */
