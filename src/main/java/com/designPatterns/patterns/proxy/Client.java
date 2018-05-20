@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /**
  * The client deals with the wrapper.
+ * The Proxy object standing in place of the original object
+ * is transparent to the client.
  * @author Ihor Savchenko
  * @version 1.0
  */
