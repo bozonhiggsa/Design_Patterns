@@ -27,7 +27,6 @@ public abstract class BaseHandler implements ChainInterface {
     }
 
     public void execute(ChainInterface next) {
-
         boolean end = ((Handler)next).handle();
 
         if(!end) {

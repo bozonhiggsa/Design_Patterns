@@ -14,7 +14,6 @@ public class EntryPoint {
     private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
     public static void main(String[] args) {
-
         Stack[] stacks = { new Stack("java"), new Stack("mine"),
                 new StackHanoi("java"), new StackHanoi("mine") };
         for (int i=0, num; i < 20; i++) {

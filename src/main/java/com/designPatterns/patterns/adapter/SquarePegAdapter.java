@@ -18,12 +18,10 @@ public class SquarePegAdapter {
     private final SquarePeg squarePeg;
 
     public SquarePegAdapter(double w) {
-
         squarePeg = new SquarePeg(w);
     }
 
     public void makeFit(RoundHole roundHole) {
-
         double amount = squarePeg.getWidth() - roundHole.getRadius() * Math.sqrt(2);
         logger.info("reducing SquarePeg " + squarePeg.getWidth() + " by " +
                 ((amount < 0) ? 0 : amount) + " amount");

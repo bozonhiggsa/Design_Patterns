@@ -44,7 +44,6 @@ public class Property {
     }
 
     void landOnBy(Player p) {
-
         logger.info(p.getName() + " landed on " + name);
         if (getOwner() == null) {
             logger.info("- not owned " + p.getName());

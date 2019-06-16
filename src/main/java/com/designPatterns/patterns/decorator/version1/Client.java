@@ -11,7 +11,6 @@ package com.designPatterns.patterns.decorator.version1;
 public class Client {
 
     public static void main(String[] args) {
-
         Widget widget = new BorderDecorator(new BorderDecorator(new ScrollDecorator(new TextField(80, 24))));
         widget.draw();
     }

@@ -22,7 +22,6 @@ class FlyweightFactory {
     private static ButtonListener listener = new ButtonListener();
 
     public static Button makeButton(String num) {
-
         Button button;
         if (treeMap.containsKey(num)) {
             button = new Button(((Button) treeMap.get(num)).getLabel());
@@ -36,7 +35,6 @@ class FlyweightFactory {
     }
 
     public static void report() {
-
         System.out.print("new Buttons - " + treeMap.size()
                 + ", \"shared\" Buttons - " + sharedButtons + ", ");
         for (Object o : treeMap.keySet()) {

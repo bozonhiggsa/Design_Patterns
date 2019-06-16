@@ -11,12 +11,10 @@ package com.designPatterns.patterns.decorator.version2;
 public class Scramble extends Decorator {
 
     public Scramble(LCD inner) {
-
         super(inner);
     }
 
     public void write( String[] s ) {
-
         super.write(s);
         System.out.println("encrypt:");
         StringBuilder sb = new StringBuilder(s[0]);
@@ -27,7 +25,6 @@ public class Scramble extends Decorator {
     }
 
     public void read(String[] s) {
-
         StringBuilder sb = new StringBuilder(s[0]);
         for (int i=0; i < sb.length(); i++) {
             sb.setCharAt(i, (char)(sb.charAt(i) + 5));

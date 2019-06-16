@@ -14,18 +14,15 @@ public class DownVisitor implements Visitor {
     private static final Logger logger = LoggerFactory.getLogger(DownVisitor.class);
 
     public void visit(FirstElement firstElement) {
-
         logger.info("do Down on " + firstElement.getFirstElement());
     }
 
     public void visit(SecondElement secondElement) {
-
         logger.info("do Down on " + secondElement.getSecondElement());
 
     }
 
     public void visit(ThirdElement thirdElement) {
-
         logger.info("do Down on " + thirdElement.getThirdElement());
     }
 }

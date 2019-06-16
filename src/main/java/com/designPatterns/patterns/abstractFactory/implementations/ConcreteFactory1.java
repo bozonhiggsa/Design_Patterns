@@ -15,13 +15,11 @@ public class ConcreteFactory1 extends AbstractFactory {
 
     @Override
     public WidgetA createA() {
-
         return new Product1WidgetA();
     }
 
     @Override
     public WidgetB createB() {
-
         return new Product1WidgetB();
     }
 }

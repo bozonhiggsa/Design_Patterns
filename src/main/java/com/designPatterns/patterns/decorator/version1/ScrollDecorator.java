@@ -15,12 +15,10 @@ public class ScrollDecorator extends Decorator {
     private static final Logger logger = LoggerFactory.getLogger(ScrollDecorator.class);
 
     public ScrollDecorator(Widget widget) {
-
         super(widget);
     }
 
     public void draw() {
-
         super.draw();
         logger.info("  ScrollDecorator");
     }

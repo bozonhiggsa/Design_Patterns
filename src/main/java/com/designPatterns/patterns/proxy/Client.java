@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Client {
 
     public static void main( String[] args ) {
-
         SocketInterface socket = new SocketProxy("127.0.0.1", 8080, args[0].equals("first") ? true : false);
         String  str;
         boolean skip = true;

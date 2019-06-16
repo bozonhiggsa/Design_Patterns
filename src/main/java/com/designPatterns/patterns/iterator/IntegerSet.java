@@ -31,7 +31,6 @@ public class IntegerSet {
     }
 
     public static class Iterator {
-
         private IntegerSet set;
         private Enumeration e;
         private Integer current;

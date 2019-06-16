@@ -10,7 +10,6 @@ package com.designPatterns.patterns.visitor.version1;
 public class Client {
 
     public static void main( String[] args ) {
-
         Element[] list = {new FirstElement(), new SecondElement(), new ThirdElement()};
         UpVisitor up = new UpVisitor();
         DownVisitor down = new DownVisitor();

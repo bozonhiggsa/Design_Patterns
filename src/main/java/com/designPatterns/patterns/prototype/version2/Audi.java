@@ -21,7 +21,6 @@ public class Audi implements Car {
 
     @Override
     public String result() {
-
         return "Model " + this.MODEL + " was provided";
     }
 }

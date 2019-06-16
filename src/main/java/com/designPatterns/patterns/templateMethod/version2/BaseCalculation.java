@@ -10,7 +10,6 @@ public abstract class BaseCalculation {
     double pi = 3.14;
 
     double calculateExtent(double number, int extent){
-
         double result = 1.0;
         int i = 1;
         while(i<=extent){
@@ -21,7 +20,6 @@ public abstract class BaseCalculation {
     }
 
     double algorithm(double radius, double height){
-
         return formula(radius, height);
     }
 

@@ -16,7 +16,6 @@ public class Mazda extends Car {
 
     @Override
     public String result() {
-
         return "Model " + this.MODEL + " was provided";
     }
 }

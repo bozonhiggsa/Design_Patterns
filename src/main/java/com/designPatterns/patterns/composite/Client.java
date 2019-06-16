@@ -8,7 +8,6 @@ package com.designPatterns.patterns.composite;
 public class Client {
 
     public static void main( String[] args ) {
-
         Composite first  = new Row(1);
         Composite second = new Column(2);
         Composite third  = new Column(3);

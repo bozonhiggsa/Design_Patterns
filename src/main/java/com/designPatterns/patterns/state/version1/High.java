@@ -7,5 +7,4 @@ package com.designPatterns.patterns.state.version1;
  * @version 1.0
  */
 public class High extends State {
-
 }

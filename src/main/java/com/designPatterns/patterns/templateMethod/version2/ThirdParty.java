@@ -13,7 +13,6 @@ public class ThirdParty {
     Creator creator = new Creator();
 
     void setAlgorithms(){
-
         creator.setAlgorithm(new BallSurface());
         creator.setAlgorithm(new BallVolume());
         creator.setAlgorithm(new CylinderVolume());
@@ -21,7 +20,6 @@ public class ThirdParty {
     }
 
     Set<BaseCalculation> getAlgorithms(){
-
         return creator.getAlgorithms();
     }
 }

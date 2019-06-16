@@ -19,12 +19,10 @@ public abstract class Composite implements Component {
     }
 
     public void add(Component c) {
-
         children[total++] = c;
     }
 
     public void traverse() {
-
         System.out.print(value + "  ");
         for (int i=0; i < total; i++) {
             children[i].traverse();

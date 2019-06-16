@@ -14,17 +14,14 @@ public class UpVisitor implements Visitor {
     private static final Logger logger = LoggerFactory.getLogger(UpVisitor.class);
 
     public void visit(FirstElement firstElement) {
-
         logger.info("do Up on " + firstElement.getFirstElement());
     }
 
     public void visit(SecondElement secondElement) {
-
         logger.info("do Up on " + secondElement.getSecondElement());
     }
 
     public void visit(ThirdElement thirdElement) {
-
         logger.info("do Up on " + thirdElement.getThirdElement());
     }
 }

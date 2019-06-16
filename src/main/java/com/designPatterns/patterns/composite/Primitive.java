@@ -16,7 +16,6 @@ public class Primitive implements Component {
     }
 
     public void traverse() {
-
         System.out.print( value + "  " );
     }
 }

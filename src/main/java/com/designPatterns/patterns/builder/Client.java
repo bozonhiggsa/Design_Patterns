@@ -15,7 +15,6 @@ public class Client {
     static AbstractBuilder builder;
 
     public static void main(String[] args) {
-
         builder = AbstractBuilder.getInstance(KindOfCharacter.HEALER);
         characterProvider.createCharacter(builder);
         logger.info(builder.getCharacter().toString());

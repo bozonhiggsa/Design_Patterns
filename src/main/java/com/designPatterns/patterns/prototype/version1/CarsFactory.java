@@ -21,7 +21,6 @@ public class CarsFactory {
     }
 
     public static Car getPrototype(String kind) {
-
         for (Car car: prototypes) {
             if(car.getModel().equals(kind)){
                 return car.clone();

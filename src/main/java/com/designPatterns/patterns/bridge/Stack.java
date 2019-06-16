@@ -27,17 +27,14 @@ public class Stack {
     }
 
     public void push(int in) {
-
         imp.push(in);
     }
 
     public int pop() {
-
         return (Integer) imp.pop();
     }
 
     public boolean isEmpty() {
-
         return imp.empty();
     }
 }

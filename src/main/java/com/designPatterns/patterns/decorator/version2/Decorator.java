@@ -19,12 +19,10 @@ public class Decorator implements LCD {
     }
 
     public void write(String[] s) {
-
         inner.write(s);
     }
 
     public void read(String[] s) {
-
         inner.read(s);
     }
 }

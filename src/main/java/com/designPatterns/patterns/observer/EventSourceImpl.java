@@ -29,7 +29,6 @@ public class EventSourceImpl implements EventSource {
 
     @Override
     public void addObserver(ObserverReaction observer) {
-
         if(observers.contains(observer)){
             return;
         }
@@ -39,7 +38,6 @@ public class EventSourceImpl implements EventSource {
 
     @Override
     public void removeObserver(ObserverReaction observer) {
-
         if(!observers.contains(observer)){
             return;
         }
@@ -49,7 +47,6 @@ public class EventSourceImpl implements EventSource {
 
     @Override
     public void eventHappened() {
-
         currentState.incrementAndGet();
 
         for (ObserverReaction observer: observers) {

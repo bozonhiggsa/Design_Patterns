@@ -23,7 +23,6 @@ public class SocketProxy implements SocketInterface {
     private PrintWriter out;
 
     public SocketProxy(String host, int port, boolean wait) {
-
         try {
             if (wait) {
                 ServerSocket server = new ServerSocket(port);
@@ -39,7 +38,6 @@ public class SocketProxy implements SocketInterface {
     }
 
     public String readLine() {
-
         String str = null;
         try {
             str = in.readLine();
@@ -50,12 +48,10 @@ public class SocketProxy implements SocketInterface {
     }
 
     public void writeLine(String str) {
-
         out.println(str);
     }
 
     public void dispose() {
-
         try {
             socket.close();
         } catch(IOException e) {

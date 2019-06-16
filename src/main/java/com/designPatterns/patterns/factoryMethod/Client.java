@@ -13,7 +13,6 @@ public class Client {
     private static final Logger logger = LoggerFactory.getLogger(Client.class);
 
     public static void main(String[] args) {
-
         Image image1 = getImage(Compression.COMPRESSION_OFF);
         logger.info("Image is supplied in format: " + image1.toString());
         Image image2 = getImage(Compression.COMPRESSION_ON);
@@ -21,7 +20,6 @@ public class Client {
     }
 
     static Image getImage(Compression compression){
-
         Image image = null;
 
         switch (compression) {

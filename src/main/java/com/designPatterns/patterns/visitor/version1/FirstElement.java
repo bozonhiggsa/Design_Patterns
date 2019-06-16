@@ -10,12 +10,10 @@ package com.designPatterns.patterns.visitor.version1;
 public class FirstElement implements Element {
 
     public void accept(Visitor v) {
-
         v.visit(this);
     }
 
     public String getFirstElement() {
-
         return "FirstElement";
     }
 }

@@ -8,7 +8,6 @@ package com.designPatterns.patterns.builder;
 public abstract class AbstractBuilder {
 
     public static AbstractBuilder getInstance(KindOfCharacter kindOfCharacter){
-
         AbstractBuilder builder = null;
         switch(kindOfCharacter){
             case WARRIOR:
@@ -28,7 +27,6 @@ public abstract class AbstractBuilder {
                 break;
         }
         return builder;
-
     }
 
     public abstract void createCharacter();

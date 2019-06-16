@@ -10,7 +10,6 @@ package com.designPatterns.patterns.strategy;
 public abstract class StrategySolution implements Strategy {
 
     public void solve() {
-
         start();
         while (nextTry() && !isSolution()) {}
         stop();

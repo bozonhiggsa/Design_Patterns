@@ -17,7 +17,6 @@ public class EntryPoint {
     private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
     public static void main(String[] args) {
-
         EventSource eventSource = EventSourceImpl.getInstance();
 
         ObserverReaction observer1 = new ObserverOne();
@@ -55,7 +54,6 @@ public class EntryPoint {
     }
 
     private static void lambdaMethod(AtomicInteger currentState){
-
         logger.info("Observer based on an Lambda :: reacted on the event " + currentState);
     }
 }

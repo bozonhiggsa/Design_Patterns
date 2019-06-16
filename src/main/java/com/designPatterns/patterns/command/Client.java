@@ -13,7 +13,6 @@ public class Client {
     private static final Logger logger = LoggerFactory.getLogger(Client.class);
 
     public static void main(String[] args) {
-
         ReflectCommand[] reflectCommands = new ClientCreator().createCommands();
 
         logger.info("Reflection results:");

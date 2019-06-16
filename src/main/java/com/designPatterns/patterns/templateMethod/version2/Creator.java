@@ -13,12 +13,10 @@ public class Creator {
     Set<BaseCalculation> algorithms = new HashSet<>();
 
     void setAlgorithm(BaseCalculation algorithm){
-
         algorithms.add(algorithm);
     }
 
     Set<BaseCalculation> getAlgorithms(){
-
         return algorithms;
     }
 

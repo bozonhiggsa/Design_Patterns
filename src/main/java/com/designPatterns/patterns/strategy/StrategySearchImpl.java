@@ -14,17 +14,14 @@ public class StrategySearchImpl extends StrategySearch {
     private int state = 1;
 
     protected void preProcess()  {
-
         logger.info("PreProcess");
     }
 
     protected void postProcess() {
-
         logger.info("PostProcess");
     }
 
     protected boolean search() {
-
         logger.info("Search-" + state++);
         return state == 3 ? true : false;
     }

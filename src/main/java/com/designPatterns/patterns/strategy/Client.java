@@ -10,12 +10,10 @@ package com.designPatterns.patterns.strategy;
 public class Client {
 
     private static void execute(Strategy strategy) {
-
         strategy.solve();
     }
 
     public static void main( String[] args ) {
-
         Strategy[] algorithms = {new StrategySolutionImpl(), new StrategySearchImpl()};
         for (Strategy algorithm : algorithms) {
             execute(algorithm);

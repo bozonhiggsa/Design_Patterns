@@ -11,22 +11,18 @@ public class Point {
     private PointCartesian pointCartesian;
 
     public Point(double x, double y) {
-
         pointCartesian = new PointCartesian(x, y);
     }
 
     public String toString() {
-
         return pointCartesian.toString();
     }
 
     public void move(int x, int y) {
-
         pointCartesian.move(x, y);
     }
 
     public void rotate(int angle, Point o) {
-
         double x = pointCartesian.getX() - o.pointCartesian.getX();
         double y = pointCartesian.getY() - o.pointCartesian.getY();
         PointPolar pointPolar = new PointPolar(Math.sqrt(x * x + y * y),Math.atan2(y, x) * 180 / Math.PI);

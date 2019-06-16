@@ -10,7 +10,6 @@ package com.designPatterns.patterns.strategy;
 public abstract class StrategySearch implements Strategy {
 
     public void solve() {
-
         while (true) {
             preProcess();
             if (search()) {

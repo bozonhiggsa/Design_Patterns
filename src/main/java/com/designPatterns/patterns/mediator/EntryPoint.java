@@ -11,7 +11,6 @@ import java.util.List;
 public class EntryPoint {
 
     public static void main( String[] args ) {
-
         List<Thread> producerList = new ArrayList<>();
         Thread thread;
         Mediator mb = new Mediator();

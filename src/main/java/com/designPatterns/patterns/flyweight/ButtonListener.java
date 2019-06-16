@@ -16,7 +16,6 @@ import java.awt.event.ActionListener;
 class ButtonListener implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
-
         Button button  = (Button)e.getSource();
         Component[] buttons = button.getParent().getComponents();
         int i = 0;

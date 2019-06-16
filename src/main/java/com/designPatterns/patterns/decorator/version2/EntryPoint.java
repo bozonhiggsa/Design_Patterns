@@ -15,12 +15,10 @@ public class EntryPoint extends Decorator {
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
     public EntryPoint(LCD inner) {
-
         super(inner);
     }
 
     public static void main(String[] args) {
-
         LCD stream = new EntryPoint(new Scramble(new Core()));
         String[] str = {""};
         stream.write(str);
@@ -29,7 +27,6 @@ public class EntryPoint extends Decorator {
     }
 
     public void write(String[] s) {
-
         System.out.print("PASSWORD: ");
         try {
             in.readLine();
@@ -40,7 +37,6 @@ public class EntryPoint extends Decorator {
     }
 
     public void read(String[] s) {
-
         System.out.print("PASSWORD: ");
         try {
             in.readLine();

@@ -14,7 +14,6 @@ public class Client {
 
 
     public static void main(String[] args) {
-
         Handler rootChain = new Handler();
         rootChain.add(new Handler());
         rootChain.add(new Handler());

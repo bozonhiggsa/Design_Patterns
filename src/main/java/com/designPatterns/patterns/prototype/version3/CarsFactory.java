@@ -15,7 +15,6 @@ public class CarsFactory {
     private final static UnknownModel unknownModel = new UnknownModel();
 
     public static Car getPrototype(String kind) throws CloneNotSupportedException {
-
         for (Car car: prototypes) {
             if(car.getModel().equals(kind)){
                 return (Car) car.clone();
@@ -25,7 +24,6 @@ public class CarsFactory {
     }
 
     public static void registerPrototypes(){
-
         prototypes.add(new Opel());
         prototypes.add(new Mazda());
         prototypes.add(new Audi());

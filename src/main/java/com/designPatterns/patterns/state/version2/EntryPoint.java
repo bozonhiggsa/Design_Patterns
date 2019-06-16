@@ -18,7 +18,6 @@ public class EntryPoint {
     private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
     public static void main(String[] args) throws IOException {
-
         InputStreamReader is = new InputStreamReader(System.in);
         Button btn = new Button();
         while (true) {

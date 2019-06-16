@@ -14,7 +14,6 @@ public class Client {
 
 
     public static void main(String[] args) {
-
         Car car1 = CarsFactory.getPrototype("Opel");
         logger.info("Cars factory made a prototype of the : " + car1.getModel());
         Car car2 = CarsFactory.getPrototype("Mazda");

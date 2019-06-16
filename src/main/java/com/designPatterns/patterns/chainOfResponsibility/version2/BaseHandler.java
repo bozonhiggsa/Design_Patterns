@@ -19,7 +19,6 @@ public class BaseHandler {
     private static final Set<Handler> consumedHandlers = new HashSet<>();
 
     public void execute() throws ConcurrentModificationException{
-
         if(!handlers.isEmpty()) {
             for (Handler consumedHandler : consumedHandlers) {
                 handlers.remove(consumedHandler);

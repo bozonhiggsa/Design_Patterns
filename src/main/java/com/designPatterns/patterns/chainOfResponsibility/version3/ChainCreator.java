@@ -8,7 +8,6 @@ package com.designPatterns.patterns.chainOfResponsibility.version3;
 public class ChainCreator {
 
     public ChainInterface createChain(int size){
-
         ChainInterface rootChain = new Handler();
         for(int i = 0; i < size; i++){
             rootChain.add(new Handler());

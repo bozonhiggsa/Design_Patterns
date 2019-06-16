@@ -12,7 +12,6 @@ import java.util.Enumeration;
 public class Client {
 
     public static void main( String[] args ) {
-
         IntegerSet set = new IntegerSet();
         for (int i=2; i < 10; i += 2) set.add(i);
         for (int i=1; i < 9; i++)

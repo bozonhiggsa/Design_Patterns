@@ -22,7 +22,6 @@ public class StackHanoi extends Stack {
     }
 
     public void push(int in) {
-
         if (!imp.empty() && in > (Integer)imp.peek()) {
             totalRejected++;
         } else {

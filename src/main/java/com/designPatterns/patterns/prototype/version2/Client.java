@@ -14,7 +14,6 @@ public class Client {
 
 
     public static void main(String[] args) {
-
         CarsFactory.initializePrototypes();
         Car car1 = CarsFactory.getPrototype("Opel");
         logger.info(car1.result());

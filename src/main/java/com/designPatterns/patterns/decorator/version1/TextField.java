@@ -16,13 +16,11 @@ public class TextField implements Widget {
     private int width, height;
 
     public TextField(int width, int height) {
-
         this.width = width;
         this.height = height;
     }
 
     public void draw() {
-
         logger.info("TextField: " + width + ", " + height);
     }
 }

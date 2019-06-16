@@ -13,7 +13,6 @@ public abstract class SuperiorAncestor {
     private static final Logger logger = LoggerFactory.getLogger(SuperiorAncestor.class);
 
     void findSolution() {
-
         stepOne();
         stepTwo();
         stepThree();
@@ -21,7 +20,6 @@ public abstract class SuperiorAncestor {
     }
 
     private void stepOne() {
-
         logger.info("Method stepOne() is implemented by SuperiorAncestor");
     }
 
@@ -29,7 +27,6 @@ public abstract class SuperiorAncestor {
     abstract void stepThree();
 
     void stepFour() {
-
         logger.info("Method stepFour() is implemented by SuperiorAncestor");
     }
 }

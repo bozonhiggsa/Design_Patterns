@@ -14,7 +14,6 @@ public class Client {
 
 
     public static void main(String[] args) throws CloneNotSupportedException {
-
         CarsFactory.registerPrototypes();
         Car car1 = CarsFactory.getPrototype("Opel");
         logger.info(car1.result());

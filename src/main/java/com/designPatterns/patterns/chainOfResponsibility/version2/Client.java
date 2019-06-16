@@ -16,7 +16,6 @@ public class Client {
 
 
     public static void main(String[] args) {
-
         BaseHandler baseHandler = new BaseHandler();
 
         baseHandler.setHandlers(new Handler(1));

@@ -15,12 +15,10 @@ public class BorderDecorator extends Decorator {
     private static final Logger logger = LoggerFactory.getLogger(BorderDecorator.class);
 
     public BorderDecorator(Widget widget) {
-
         super(widget);
     }
 
     public void draw() {
-
         super.draw();
         logger.info("  BorderDecorator");
     }

@@ -17,18 +17,15 @@ public class Line {
     }
 
     public void  move(int x, int y) {
-
         o.move(x, y);
         e.move(x, y);
     }
 
     public void  rotate(int angle) {
-
         e.rotate(angle, o);
     }
 
     public String toString() {
-
         return "origin is " + o + ", end is " + e;
     }
 }

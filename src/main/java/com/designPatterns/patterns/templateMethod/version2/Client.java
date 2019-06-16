@@ -16,7 +16,6 @@ public class Client {
     private static final Logger logger = LoggerFactory.getLogger(Client.class);
 
     public static void main(String[] args) {
-
         ThirdParty thirdParty = new ThirdParty();
         thirdParty.setAlgorithms();
         Set<BaseCalculation> algorithms = thirdParty.getAlgorithms();

@@ -16,7 +16,6 @@ import java.util.Random;
 public class Client {
 
     public static void main( String[] args ) {
-
         Random rn = new Random();
         Frame frame = new Frame("Flyweight Demo");
         frame.addWindowListener(new WindowAdapter() {
